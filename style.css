@@ -3,13 +3,124 @@
     margin: 0;
     padding: 0;
 }
+/*------------------------------banner Section-----------------------------*/
+
+.nav-set
+{
+    background: #EEAF0E;
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-set-item
+{
+    margin-left: 10%;
+}
+.nav-link:hover
+{
+    background-color: #af7d00;
+}
+.banner
+{
+    background-image: url(img/banner-img.jpg);
+    filter: opacity(90%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+span
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+.input-field
+{
+    margin-left: 15%;
+    width: 70%;
+    padding: 2% 3%;
+    border-bottom: 4px solid #303030;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.input-field:hover
+{
+    border-bottom: 4px solid #EEAF0E;
+}
+.btn-submit
+{
+    margin-left: 15%;
+    width: 70%;
+    background-color: #EEAF0E;
+    color: #303030;
+    margin-top: 5%;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    font-style: "Open Sans";
+    border:none;
+    margin-bottom: 5%;
+}
+.btn-submit:hover
+{
+    color: #EEAF0E;
+    background-color: #303030;
+}
+#login ~ .login-box
+{
+    width: 40%;
+
+}
+.login-box
+{
+    background-color: #fff;
+    height:50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    margin-top: 15%;
+}
+.banner-title
+{
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: #303030;
+    margin-top: 20%;
+}
+.log-reg
+{
+    padding-bottom: 10%;
+}
+/*-----------------------Customer Experinece-------------------------------*/
+.customer-exp
+{
+    height: 50%
+}
+.img-title
+{
+    color: #EEAF0E;
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.img-desc
+{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+/*---------------------------how it works---------------------------*/
 .main
 {
     background-color: #F3F3F3;
     height: auto;
 }
-.main h1
+h1
 {
+    padding-top:5%;
     color: #404040;
     font-family: "Open Sans";
     text-align:center;
@@ -64,3 +175,51 @@
     color: #303030;
     transition: .5s;
   }
+
+  .icons:hover
+  {
+      
+      cursor: pointer;
+      filter: invert(1);
+  }
+  .icon:hover
+  {
+      background-color: #303030;
+      color: #EEAF0E;
+  }
+  .footer
+  {
+      background-color: #303030;
+  }
+.footer-title
+{
+    margin-top: 10%;
+    color: #fff;
+    text-align: left;
+}
+.detail
+{
+    color: #fff;
+    font-size: 25px;
+    font-family: "sans-serif", "open sans";
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.social-icon
+{
+    margin-top: 5%;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 35px;
+}
+.soc-icon
+{
+    background-color: #fff;
+    color: #303030;
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    padding: 2% 2%;
+    margin-left: 5%;
+}
